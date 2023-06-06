@@ -44,7 +44,7 @@ main{
   height: 150px;
   background-image: url(img/flow01.png);
   background-position: bottom;
-  background-size: cover;  
+  background-size: cover;
 }
 
 .img2{
@@ -76,17 +76,27 @@ footer{
 @media screen and (max-width: 768px) {
   main{
   width: 100%;
-  margin:50px;
-  display:flex;
-  flex-direction: column;
+  margin: 50px 0;
+  display:block;
 }}
 
 @media screen and (max-width: 768px) {
 .mainbox {
   width: 90%;
-  margin-top: 20px;
+  margin: 0 auto;
 }}
 
+@media screen and (max-width: 768px) {
+  .mainbox:nth-child(2){
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }}
+  
+@media screen and (max-width: 768px) {  
+  .mainbox:last-child {
+  margin: 0 auto;
+}}
+  
 @media screen and (max-width: 768px) {
   footer{
   width: 100%;
